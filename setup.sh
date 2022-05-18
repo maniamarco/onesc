@@ -43,24 +43,6 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://raw.githubusercontent.com/rajakapur/terimaip/main/authipvps | grep $MYIP )
-if [ $MYIP = $IZIN ]; then
-clear
-echo -e "${green}ANDA DH BOLEH GUNA SCRIPT SAYA${NC}"
-sleep 5
-else
-clear
-echo ""
-rm -f setup.sh
-echo '                            ...                           '
-echo '        BOSS DAFTAR IP DULU JANGAN MAIN INSTALL SAJA      '
-echo '                            ...                           '
-echo '             PM SAYA DI TELEGRAM UNTUK DAFTAR IP          '
-echo '                  Telegram t.me/MrTricksiak               '
-sleep 20
-exit 0
-fi
-# ==========================================
 # Color
 RED='\033[0;31m'
 NC='\033[0m'
