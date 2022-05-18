@@ -54,7 +54,7 @@ cat > /etc/xray/sl-vmessgrpc.json << END
     },
     "inbounds": [
         {
-            "port": 80,
+            "port": 7443,
             "protocol": "vmess",
             "settings": {
                 "clients": [
@@ -194,7 +194,10 @@ systemctl restart sl-vless-grpc
 cd /usr/bin
 
 
-wget -O sl-addgrpc "https://raw.githubusercontent.com/rajakapur/onesc/main/grpc/sl-addgrpc.sh"
+wget -O sl-addgrpc "https://raw.githubusercontent.com/zahwanugrah/onesc/main/grpc/sl-addgrpc.sh"
+wget -O sl-delgrpc "https://raw.githubusercontent.com/zahwanugrah/onesc/main/grpc/sl-delgrpc.sh"
+wget -O sl-renewgrpc "https://raw.githubusercontent.com/zahwanugrah/onesc/main/grpc/sl-renewgrpc.sh"
+wget -O sl-cekgrpc "https://raw.githubusercontent.com/zahwanugrah/onesc/main/grpc/sl-cekgrpc.sh"
 chmod +x sl-addgrpc
 chmod +x sl-delgrpc
 chmod +x sl-renewgrpc
