@@ -2,34 +2,6 @@
 echo ''
 clear
 echo ''    
-echo -e "$green                                                             $NC"                                                           
-echo -e "$yell $Blink  ███████╗██╗██████╗ ████████╗██████╗ ██╗ ██████╗██╗  ██╗███████╗██████╗ $NC"
-echo -e "$yell $Blink  ██╔════╝██║██╔══██╗╚══██╔══╝██╔══██╗██║██╔════╝██║ ██╔╝██╔════╝██╔══██╗$NC"
-echo -e "$yell $Blink  ███████╗██║██████╔╝   ██║   ██████╔╝██║██║     █████╔╝ █████╗  ██████╔╝$NC"
-echo -e "$yell $Blink  ╚════██║██║██╔══██╗   ██║   ██╔══██╗██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗$NC"
-echo -e "$yell $Blink  ███████║██║██║  ██║   ██║   ██║  ██║██║╚██████╗██║  ██╗███████╗██║  ██║$NC"
-echo -e "$yell $Blink  ╚══════╝╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝$NC"
-echo ''  
-echo -e "$green   ...........................................................$NC"
-echo ''                                                                   
-echo '                  AUTOSCRIPT PREMIUM SCRIPT                 '
-echo ''
-echo ' .......................................................... '
-echo '                       Build in 2022                        '
-echo ''
-echo '                   kalau ada apa2 masalah                   '
-echo '                  Contact Saya Di Telegram                  '
-echo ''
-echo ''
-echo '                         Telegram                           '
-echo '              Telegram Channel t.me/Mrtricksiak             '
-echo ''
-echo ''
-echo ''
-echo '                       Sabar Boss                           '
-echo '                     Tunggu 5 Saat                          '
-echo ' .......................................................... '
-sleep 5
 clear
 if [ "${EUID}" -ne 0 ]; then
         echo "You need to run this script as root"
