@@ -273,7 +273,7 @@ END
 # Installing Trojan Go Service
 cat > /etc/systemd/system/trojan-go.service << END
 [Unit]
-Description=Trojan-Go Service MR.TRICK
+Description=Trojan-Go Service MR.CROOD
 Documentation=nekopoi.care
 After=network.target nss-lookup.target
 
@@ -313,9 +313,17 @@ wget -O sl-addgrpc "https://raw.githubusercontent.com/maniamarco/onesc/main/grpc
 wget -O sl-delgrpc "https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-delgrpc.sh"
 wget -O sl-renewgrpc "https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-renewgrpc.sh"
 wget -O sl-cekgrpc "https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-cekgrpc.sh"
+wget -O addtrogo "https://raw.githubusercontent.com/maniamarco/onesc/main/trojango/addtrgo.sh"
+wget -O deltrogo "https://raw.githubusercontent.com/maniamarco/onesc/main/trojango/deltrgo.sh"
+wget -O renewtrogo "https://raw.githubusercontent.com/maniamarco/onesc/main/trojango/renewtrgo.sh"
+wget -O cektrogo "https://raw.githubusercontent.com/maniamarco/onesc/main/trojango/cektrgo.sh"
 chmod +x sl-addgrpc
 chmod +x sl-delgrpc
 chmod +x sl-renewgrpc
 chmod +x sl-cekgrpc
+chmod +x addtrogo
+chmod +x deltrogo
+chmod +x renewtrogo
+chmod +x cektrogo
 
 rm -f sl-grpc.sh
