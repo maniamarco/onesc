@@ -83,7 +83,7 @@ wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # wget https://raw.githubusercontent.com/rajakapur/onesc/main/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray grpc
-wget https://raw.githubusercontent.com/rajakapur/onesc/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+wget https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
