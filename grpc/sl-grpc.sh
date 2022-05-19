@@ -309,10 +309,10 @@ systemctl enable trojan-go
 systemctl restart trojan-go
 
 cd /usr/bin
-wget -O sl-addgrpc "https://raw.githubusercontent.com/zahwanugrah/onesc/main/grpc/sl-addgrpc.sh"
-wget -O sl-delgrpc "https://raw.githubusercontent.com/zahwanugrah/onesc/main/grpc/sl-delgrpc.sh"
-wget -O sl-renewgrpc "https://raw.githubusercontent.com/zahwanugrah/onesc/main/grpc/sl-renewgrpc.sh"
-wget -O sl-cekgrpc "https://raw.githubusercontent.com/zahwanugrah/onesc/main/grpc/sl-cekgrpc.sh"
+wget -O sl-addgrpc "https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-addgrpc.sh"
+wget -O sl-delgrpc "https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-delgrpc.sh"
+wget -O sl-renewgrpc "https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-renewgrpc.sh"
+wget -O sl-cekgrpc "https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-cekgrpc.sh"
 chmod +x sl-addgrpc
 chmod +x sl-delgrpc
 chmod +x sl-renewgrpc
