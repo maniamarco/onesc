@@ -76,8 +76,8 @@ state=Indonesia
 locality=Indonesia
 organization=infinity
 organizationalunit=infinity
-commonname=cdn.covid19.go.id
-email=hayuk69@gmail.com
+commonname=cdn.covid19
+email=ngeslop69@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${akbarvpn}/password"
