@@ -82,7 +82,7 @@ cat > /etc/xray/vmessgrpc.json << END
                     ]
                 },
                 "grpcSettings": {
-                    "serviceName": "GunService"
+                    "serviceName": "GRpc"
                 }
             }
         }
@@ -195,7 +195,7 @@ cat > /etc/xray/vlessgrpc.json << END
                     ]
                 },
                 "grpcSettings": {
-                    "serviceName": "GunService"
+                    "serviceName": "GRpc"
                 }
             }
         }
