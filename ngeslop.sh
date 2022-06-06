@@ -79,9 +79,8 @@ wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install SlowDNS
 #wget https://raw.githubusercontent.com/rajakapur/onesc/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
-# Informasi IP Saya dan Semua Port TCP UDP
-# wget https://raw.githubusercontent.com/rajakapur/onesc/main/ipsaya.sh && chmod +x ipsaya.sh
-#
+# GRPC
+wget https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc.sh ./xray-grpc.sh
 # install xray grpc
 wget https://raw.githubusercontent.com/maniamarco/onesc/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 
